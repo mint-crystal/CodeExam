@@ -17,8 +17,7 @@ public class String04 {
 //		for(String x : str) {
 //			//x를 StringBuilder객체로 만들고 reverse시킨 후 String으로 변환
 //			String tmp = new StringBuilder(x).reverse().toString(); 
-//			/* String은 불면이므로 변경 시 마다 객체가 새롭게 만들어지지만 
-//			 * StringBuilder는  처음 만들어진 객체를 계속 사용하여 메모리의 낭비를 줄인다.
+//			/* String은 불면이므로 변경 시 마다 객체가 새롭게 만들어지지만  StringBuilder는  처음 만들어진 객체를 계속 사용하여 메모리의 낭비를 줄인다.
 //			 * String 연산이 많아지면 StringBuilder를 사용하기도 한다. */
 //			answer.add(tmp);
 //		}
